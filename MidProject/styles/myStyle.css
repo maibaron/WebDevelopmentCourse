@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&subset=hebrew');
+body 
+{
+    direction:rtl;
+    background-image: url(../images/76963.jpg);
+    background-attachment: fixed;
+    background-size: 960px;
+
+
+}
+/*דף בית*/
+#container
+{
+    margin: 0 auto;
+    width:960px;
+    
+}
+article
+{
+    background-color:rgba(255, 255, 255, 0.8);
+    clear:both;
+    padding-bottom:30px;
+}
+/*תפריט ניווט*/
+ul
+{
+list-style:none;
+}
+.nav1 ul>li
+{
+display:inline-block;
+font-family: 'Rubik', sans-serif;
+float:right;/*גורם לבעיה לא עובד כמוש צריך??*/
+}
+
+.nav1 ul li a
+{
+display: inline-block;
+background-color:rgba(140, 189, 199, 0.9);
+color: white;
+width: 240px;;
+height: 60px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+line-height:60px;
+font-size: 16pt;
+
+}
+.nav1 ul li a:hover
+{
+    background-color: #ffaec2;
+}
+.nav1 ul li a:active
+{
+    background-color: #f089a3;
+}
+.currentPage
+{
+    background-color: #ffaec2 !important; 
+}
+/*תוכן*/
+
+article section h1
+{
+font-size: 30px;
+color:#fd5f87;
+font-family: 'Rubik', sans-serif;
+text-align: center;
+clear:both;
+padding-top:40px;
+}
+p
+{
+     font-family: 'Rubik', sans-serif;
+     text-align: right;
+     margin:50px;
+     padding-left:100px;
+    padding-right:100px;
+}
+/*תפריט משני בתוכן*/
+.nav2 ul li 
+{
+    display:inline;
+    margin-right:28px;
+}
+.nav2 ul li
+{
+  text-align: center;
+ 
+}
+.nav2 ul li img
+{
+    border-radius: 50%;
+    margin:40px;
+}
+.nav2 ul li img:hover
+{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0.7;
+
+}
+.nav2 ul li img:active
+{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.nav2 ul li #visualcom
+{
+    height:22%;
+    width:22%;
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.nav2 ul li #happynewyear
+{
+    height:22%;
+    width:22%;
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.nav2 ul li #moana
+{
+    height:19%;
+    width:19%;-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+/*הגדרות מדיה*/
+#youtube
+{
+    text-align: center;
+}
+h2
+{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top:30px;
+}
+a:hover
+{
+    opacity:0.7;
+}
+a:active
+{
+    opacity:1;
+}
+/*עמוד ברכה לשנה החדשה ולפוסטר*/
+#newyear,#movieposter,#visualimage
+{
+    width: 50%;
+    height:50%;
+    margin:20px 250px;
+
+}
+.audio
+{
+    text-align: center;
+}
+
