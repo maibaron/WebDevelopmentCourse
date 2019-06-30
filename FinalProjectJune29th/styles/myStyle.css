@@ -1,0 +1,1036 @@
+
+h1,h2,h3,h4,h5,h6,p,li,a,div,label,input{
+  font-family: 'Varela Round', sans-serif;
+}
+body 
+{
+  direction:rtl;  
+  
+
+}
+#container
+{
+margin:0 auto;
+width:1366px;
+
+}
+#skip
+{
+color:transparent;
+position: absolute;
+
+}
+#skip:focus
+{
+  font-size: 22pt;
+  width:300px;
+  height:40px;
+  margin-right:544.5px;
+  color:black;
+  background-color:rgba(255, 255, 255, 0.8);
+}
+
+/*אביזרי עיצוב - להעביר לסוף*/
+.browntexture
+{
+  background-image: url(../Images/brownbackground.jpg);
+  width:1326px;
+  height:120px;
+  background-size:100%;
+  margin-right:20px;
+}
+.scissors
+{
+  width:80px;
+  height:90px;
+  background-image: url(../Images/scissors.png);
+  position: absolute;
+  background-size: 100%;
+  background-repeat:none;
+}
+.pencil
+{
+  width:50px;
+  height:80px;
+  background-image: url(../Images/pencil.png);
+  position: absolute;
+  background-size: 100%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+ 
+}
+.paperclip {
+  background-image: url(../Images/paperclip.png);
+  width: 43px;
+  height: 127px;
+  background-size: 100%;
+  margin-right: 430px;
+  position: absolute;
+  margin-top: -27px;
+  z-index:1;
+}
+#designScissors
+{
+  margin-top:80px;
+  margin-right: 88px;
+}
+#designPencil
+{
+  margin-top:80px;
+  margin-right:1200px;
+
+}
+
+/*טקסטורת נייר טואלט לדפי לובי*/
+.browntextureThick {
+  background-image: url(../Images/brownbackground.jpg);
+  width: 1346px;
+  height: 140px;
+  background-size: 100%;
+  margin-right: 10px;
+}
+/*קישור לא פעיל רק ברמת אין כניסה*/
+
+  /*מחוון מקומי*/
+.breadcrumbs
+{
+  margin-right: 66px;
+  margin-top:20px;
+}
+.breadcrumbs li
+{
+display:inline-block;
+}
+.breadcrumbs li:after
+{
+content: ">";
+}
+.breadcrumbs li:last-child:after
+{
+content:"" ;
+}
+.breadcrumbs li a
+{
+  text-decoration:none;
+  color:gray;
+}
+/*תפריט ניווט*/
+#logo 
+{
+  width:12%;
+  float:right;
+  padding:10px 0px 9px 0px;
+}
+header nav ul li
+{
+display:inline-block;
+float:right;
+-webkit-border-radius: 2px 2px 0 0;
+border-radius: 2px 2px 0 0;
+}
+
+header nav ul li>a
+{
+display: block;
+color: black;
+width: 233.3px;
+height: 33px;
+padding-top: 27px;
+text-decoration: none;
+text-align: center;
+font-size: 18pt;
+}
+header
+{
+  background-image: url(../Images/brownbackground.jpg);
+  background-size: 100%;
+  width:1326px;
+  height:60px;
+  margin-right:20.5px;
+  -webkit-border-radius: 2px 2px 0 0;
+border-radius: 2px 2px 0 0;
+}
+header nav ul li:hover
+{
+  background-color: rgba(255, 255, 255, 0.6);
+
+}
+header nav ul li:active
+{
+  background-color: rgb(254, 249, 244); 
+}
+
+.currentPage
+{
+  background-color: rgb(254, 249, 244);  
+}
+.notActiveGray
+{
+  cursor:not-allowed;
+  color:grey;
+}
+#map .notActiveGray
+{
+  cursor:not-allowed;
+  color:grey;
+}
+.notActive
+{
+  cursor:not-allowed;
+}
+/*תוכן העמוד*/
+/*עמוד הבית*/
+/*פיצ'ר*/
+#featureimage
+{
+  background-image:url(../images/featureimage2.jpg); 
+  width:1366px;
+  height:500px;
+  background-size: 100%;
+  clear: both;
+
+}
+#slogan h2
+{
+  margin-top:80px;
+  margin-right:50px;
+  position: absolute; 
+  font-size: 30pt;
+}
+
+/*אייקונים*/
+.icons-grid
+{
+  display:grid;
+  grid-template-columns:auto auto auto  ;
+ text-align: center;
+  margin-top:-113px;
+  margin-bottom:-130px;
+
+}
+.icons-grid li a
+{
+  width:223px;
+  height:1px;
+  display:inline-block;
+  text-decoration: none;
+  color:black;
+  padding-top:223px;
+}
+
+#papericon
+{
+  background-image: url(../Images/papericon.png);
+}
+
+#rollpapericon
+{
+  background-image: url(../Images/rollpapericon.png);
+}
+
+#bottlesicon
+{
+  background-image: url(../Images/bottleicon.png);
+}
+/*מעבר עכבר של אייקוניםם*/
+#papericon:hover
+{
+ background-image: url(../Images/gif11.gif);
+
+}
+#rollpapericon:hover
+{
+  opacity: 0.8;
+  color:white;
+}
+/*חלק גלילי נייר בעמוד הבית*/
+#rollpapertext
+{
+  padding:250px 0px;
+  width:1366px;
+  background-color:#E6DFD5;
+
+  
+}
+#rollpapertext>h2
+{ 
+  background-color:#47646E;
+  width:540px;
+  height:130px;
+  position: relative;
+  margin-right:142.5px;
+  padding-top:50px;
+  color:white;
+  text-align: center;
+  font-size:20pt;
+  z-index: 10;
+  line-height:1.5;
+ 
+}
+/*תמונה של הגליל*/
+#rollpapertext a
+{
+  background-image: url(../Images/rollerpaper2.jpg);
+  width:500px;
+  height:500px;
+  position: absolute;
+  background-size: 110%; 
+  margin-top:-350px;
+  margin-right:592px;
+  -webkit-box-shadow: 1px 1px 3px 1px #ABA69E;
+  box-shadow: 1px 1px 3px 1px #ABA69E;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  
+}
+#rollpapertext a:hover
+{
+  background-image: url(../Images/octopus3.jpg);
+  width:500px;
+  height:500px;
+  position:absolute;
+  background-size: 110%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#rollpapertext a:active
+{
+  background-image: url(../Images/rollerpaper2.jpg);
+  width:500px;
+  height:500px;
+  position:absolute;
+  background-size: 110%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+
+
+/*חלק טיפים בעמוד הבית*/
+#tipstext
+{
+  padding:50px 0 100px 0px;
+  width:1366px;
+  background-color:#AAA7A2;
+
+}
+#tipstext h2
+{
+  color:black;
+  text-align: right;
+  width:400px;
+  padding-top:70px;
+  font-size:18pt;
+  position: relative;
+  margin-right:780px;
+  margin-top:40px;
+  line-height:1.5;
+}
+
+#tipsboy
+{
+  background-image: url(../Images/tipsboy.jpg);
+  width:500px;
+  height:482px;
+  background-size: 100%;
+  margin-top: -158px;
+  margin-right: 141px;
+  position: relative;;
+
+
+}
+
+/*כפתור לטיפים נוספים*/
+#tipstext a
+{
+  width:200px;
+  height:50px;
+  background-color: #F79AC5;
+  text-decoration: none;
+  color:black;
+  position: absolute;
+  margin-top:-250px;
+  margin-right:780px;
+  font-size:18pt;
+  text-align: center;
+  padding-top:30px;
+  -webkit-box-shadow: 3px 3px 2px 0 #5E3B47;
+  box-shadow: 3px 3px 2px 0 #5E3B47;
+}
+#tipstext a:hover
+{
+  background-color:lightpink;
+}
+#tipstext a:active
+{
+  box-shadow: 1px 1px 2px 0px #5E3B47 ;
+  -webkit-box-shadow: 1px 1px 2px 0 #5E3B47;
+}
+
+
+/*עמודי לובי*/
+
+.headerbackgroundcolor
+{
+  width:1366px;
+  height:400px;
+  background-color: rgb(254, 243, 229);
+  z-index: -2;
+  position: absolute;
+  margin-top:-63px;
+  opacity: 0.5;
+
+  
+}
+.Creations
+{
+  width:1366px;
+  background-color: #E6DFD5;
+  
+}
+  /*כותרת עמודים פנימיים*/
+  .contentpage h1 
+  {
+      font-size: 28pt;
+      margin-bottom: 300px;
+      margin-right: 74px;
+      margin-top: 27px;
+  }
+#toiletpaperimage {
+  background-image: url(../Images/toiletpaperimage.png);
+  width: 350px;
+  height: 350px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 844px;
+  margin-top: -375px;
+  margin-bottom:25px;
+}
+#paperimage
+{
+  background-image: url(../Images/papers-1.png);
+  width: 500px;
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 694px;
+  margin-top: -505px;
+  margin-bottom: 5px;
+
+}
+
+.Creations img 
+{
+  width:370px;
+  height:370px;
+}
+.Creations ul
+{
+  margin-right:34px;
+  padding:30px 0px;
+}
+.Creations ul li
+{
+  display:inline-block;
+  margin:30px;
+}
+/*טקסט מתחת לתמונה*/
+.Creations ul li a p {
+
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.8);
+   margin-top:-18px;
+   color:black;
+   width:370px;
+}
+.Creations ul li a
+{
+  text-decoration: none;
+}
+
+/*מעבר עכבר ביצירות*/
+.description {
+  position: relative;
+  width: 370px;
+}
+
+.image {
+  display: block;
+  width: 370px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(255, 255, 255, 0.8);
+  overflow:hidden;
+  width: 370px;
+  height: 0;
+  transition: .5s ease;
+ 
+}
+
+.description:hover .overlay {
+  height: 60%;
+}
+
+.text {
+  color:rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  line-height: 1.5;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*עמוד פנימי - יצירות*/
+#octopus
+{
+  background-image:url(../Images/nobackground_octopus.png);
+  width: 300px;
+  height:300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 845px;
+  margin-top:-375px;
+  margin-bottom:43px;
+}
+#bookmark
+{
+  background-image:url(../Images/spongeBob.png);
+  width: 300px;
+  height:300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 845px;
+  margin-top:-375px;
+  margin-bottom:43px;
+}
+#creationsScissors
+{
+  margin-top:80px;
+  margin-right: 88px;
+}
+.didYouKnow
+{
+  margin-right:74px;
+  margin-top:-160px;
+  margin-bottom:-130px;
+}
+
+.didYouKnow h2
+{
+  font-size: 18pt;
+}
+.didYouKnow>p
+{
+  font-size: 16pt; 
+  width:500px;
+}
+.didYouKnow ul li
+{
+  width: 120px;
+  height:120px;
+  border-radius: 100%;
+  background-color: #47646e;
+  display: inline-block;
+  margin-top:150px;
+  margin-right:210px;
+}
+.didYouKnow ul li p
+{
+  font-size:14pt;
+  padding-top:50px;
+  text-align: center;
+  color:white; 
+}
+.didYouKnow ul
+{
+  margin-top:-15px;
+}
+.tdl
+{
+    width: 1366px;
+    height:auto;
+    background-color: #E6DFD5;
+    padding-bottom: 200px;
+}
+/*מחברת- רשימה*/
+.notebook
+{
+  background-image:url(../Images/notebookfinal-01.png);
+  width:200px;
+  height:320px;
+  background-size: 100%;
+  padding:50px;
+  position: absolute;
+  margin-right:74px;
+  margin-top:90px;
+}
+.tdl ul li
+{
+  list-style-image:url(../Images/v.png);
+  font-size: 16pt;
+  margin-right:5px;
+  line-height: 1.5;
+}
+.tdl div h2
+{
+  font-size: 18pt;
+  margin-bottom: 20px;
+}
+iframe {
+  margin-right: 544px;
+  margin-top:90px;
+  margin-bottom: 60px;
+}
+.tdl section
+{
+  margin-right:74px;
+  margin-bottom:100px;
+  width:600px;
+  font-size: 16pt;
+  line-height: 1.5;
+}
+.tdl>p
+{
+  margin-right:74px;
+  font-size:14pt;
+}
+.tdl>a
+{
+  position: absolute;
+  height:auto;
+  width:auto;
+  margin-top: 40px;
+  margin-right: 690px;
+  background-color: #F79AC5;
+  text-decoration: none;
+  color:black;
+  font-size:18pt;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 2px 0 #5E3B47;
+  box-shadow: 3px 3px 2px 0 #5E3B47;
+  padding:12px;
+
+
+}.tdl>a:hover
+{
+  background-color:lightpink;
+}
+.tdl>a:active
+{
+  box-shadow: 1px 1px 2px 0px #5E3B47 ;
+  -webkit-box-shadow: 1px 1px 2px 0 #5E3B47;
+}
+/*יצירות נוספות*/
+aside
+{
+  background-color: #aaa7a2;
+  padding:100px 0;
+}
+aside ul li a img
+{
+  width:300px;
+  height:300px;
+}
+aside ul li
+{
+  display: inline-block;
+  margin-right:110px;
+}
+aside h2
+{
+  font-size:16pt;
+ margin:-50px 25px 50px 0;
+ 
+}
+aside ul li p
+{
+    text-align: center;
+      position: relative;
+      background-color:rgba(255, 255, 255, 0.8);
+     margin-top:-18px;
+     color:black;
+}
+aside ul li a
+{
+  text-decoration: none;
+}
+#asidePencil
+{
+  margin-top:400px;
+  margin-right:1250px;
+}
+
+#asidepaperclip
+{ 
+  margin-right: 1100px;
+}
+
+
+/*עמוד טיפים לבייביסיטר*/
+#pagetipsboy
+{
+  background-image: url(../Images/pageboytips.png);
+  width: 400px;
+  height: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 844px;
+  margin-top: -325px;
+  margin-bottom: -75px;
+}
+#TipList
+{
+  background-color:#E7E0D6;
+  width:1366px;
+  padding:120px 0px 50px 0px;
+}
+.myTip
+{
+  list-style: none;
+}
+
+.content{
+  display:none;
+  text-align:right;
+  width: 1040px;
+  padding: 10px 20px;
+  margin:0 auto;
+  background-color:#FFF7EE;
+  height:50px;
+}
+
+.clickable{
+  text-decoration:none;
+  display:block;
+  padding:34px 40px 0px 40px;;
+  background-color:#FFF7EE;
+  width:1000px;
+  height:50px;
+  font-size:16pt;
+  margin:0 auto;
+  color:black;
+  text-align:right;
+}
+.clickable:hover{
+  opacity: 0.7;
+}
+.open
+{
+  background-color:#FFF7EE;  
+}
+.myTip
+{
+  margin-bottom:30px;
+}
+.arrowbutton
+{
+  background-image: url(../Images/tipsbutton.png);
+  height:11px;
+  width:27px;
+  background-size: 100%;
+  background-repeat: none;
+  margin-right:900px;
+  margin-top:-13.5px;
+}
+#tipsScissors
+{
+  margin-top:190px;
+  margin-right: 75px;
+}
+#tipsPencil
+{
+  margin-top: -20px;
+  margin-right: 1250px;;
+
+}
+/*עמוד אודות*/
+#about
+{
+  line-height: 1.5;
+}
+#about section
+{
+padding:20px 30px;
+width:1306px;
+background-color: #E6DFD5;
+margin-top:-50px;
+}
+#aboutImage
+{
+  background-image: url(../Images/aboutImage.jpg); 
+  width:1366px;
+  height:420px;
+  background-size: 100%;
+  position: absolute;
+  margin-top:-419px;
+  z-index:-1;
+  opacity: 0.8;
+}
+#about section p
+{
+  font-size:16pt;
+}
+#about section ul
+{
+  margin-bottom: 5px;
+  margin-right: 25px;
+}
+#about h2
+{
+  font-size: 20pt;
+}
+#about section ul li
+{
+  list-style: circle;
+  font-size: 14pt;
+  color:black;
+}
+#about li>a
+{
+  color:black;
+}
+#aboutPencil
+{
+  margin-top: 20px;
+  margin-right: 1220px;
+}
+#aboutScissors
+{
+  margin-top:300px;
+}
+
+section>a{
+  width:200px;
+  height:200px;
+  margin-right: 528px;
+  font-size: 22pt;
+  color:black;
+  text-decoration: none;
+}
+#about section>a:hover
+{
+text-decoration: underline;
+}
+#hitlogo {
+  width: 181.2px;
+  height: 117.8px;
+  background-size: 100%;
+  margin-right: 607px;
+  background-image: url(../Images/logoHIT.png);
+}
+/*עיצוב עמוד צור קשר*/
+#contactImage
+{
+  background-image: url(../Images/contactimage.jpg);
+  width:1366px;
+  height:400px;
+  background-size: 100%;
+  position: absolute;
+  margin-top:-395px;
+  opacity: 0.8;
+  z-index: -1;
+}
+#contact p,form
+{
+  margin-top:-50px;
+  background-color: #E6DFD5;
+  padding: 50px 0px;
+  width:1306px;
+  padding-right:74px;
+
+}
+#contact>p
+{
+
+  font-size:14pt;
+}
+.formdesign
+{
+  display:block; 
+  margin-top:10px; 
+  width:300px;
+  margin-bottom: 25px;
+  
+}
+label>input,label>textarea
+{
+  border:2px rgb(136, 131, 125) solid;
+  border-radius: 2px;
+}
+form>input
+{
+  width:100px;
+  height:50px;
+  margin-top:20px;
+  background-color: #F79AC5;
+  text-decoration: none;
+  border-radius: 2px;
+  color:black;
+  font-size:14pt;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 2px 0 #5E3B47;
+  box-shadow: 3px 3px 2px 0 #5E3B47;
+}
+/*עיצוב עמוד מפת אתר*/
+#mapImage
+{
+  background-image:url(../Images/mapImage.jpg);
+
+  width:1366px;
+  height:401px;
+  background-size: 100%;
+  position: absolute;
+  margin-top:-401px;
+  z-index:-1;
+  opacity: 0.8;
+
+}
+
+#map nav
+{
+background-color:#E6DFD5;
+margin-top:-50px;
+padding:40px 0px;
+padding-right:74px;
+}
+#map nav ul li a
+{
+  text-decoration: none;
+  color:black;
+  font-size: 14pt;
+}
+#map nav ul li a:hover
+{
+  text-decoration: underline;
+}
+#map nav ul li
+{
+list-style: circle;
+margin-right: 20px;
+}
+#map .footer-grid>li 
+{ 
+  list-style: initial;
+}
+#mapScissors
+{
+  margin-top:-150px;
+  margin-right: 1200px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+}
+/*צור קשר*/ 
+
+form>input:hover
+{
+  background-color:lightpink;
+}
+form>input:active
+{
+  box-shadow: 1px 1px 2px 0px #5E3B47 ;
+  -webkit-box-shadow: 1px 1px 2px 0 #5E3B47;
+}
+/*פוטר*/
+footer
+{
+  width:1366px;
+  background-image: url(../Images/footerbackground-01.png);
+  background-size: 105%;
+  background-repeat: none;
+}
+#footerfold
+{
+  width: 300px;
+  height: 300px;
+  background: url(../Images/spritefold-01.png) -596px -99px;
+  margin-right: 1099px;
+  margin-top: -219px;
+}
+#footerfold:hover
+{
+  width: 513px;
+  height: 399px;
+  background-position: 0px 0px;
+  margin-top: -318px;
+  margin-right: 857px;
+
+}
+#footerfold>a
+{
+  display:none;
+  padding-top: 60px;
+  padding-right:150px;
+  font-size:16pt;
+  width:150px;
+}
+#footerfold:hover>a
+{
+  display: block;
+  color:black;
+  
+  text-decoration: none;
+  margin-bottom: -300px;
+}
+#footerfold>a:hover
+{
+  text-decoration: underline;
+}
+
+footer nav
+{
+  margin-right:20px;
+}
+.footer-grid
+{
+  display:grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto  ;
+
+}
+.footer-grid li
+{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+footer nav ul li a
+{
+  text-decoration: none;
+  font-size: 10pt;
+  color:black;
+}
+footer nav ul li a:hover
+{ 
+text-decoration: underline;
+}
+footer nav ul li .category
+{
+  font-size: 16pt;
+}
+
+
+
+ 
+  
+  
+  
+  
+  

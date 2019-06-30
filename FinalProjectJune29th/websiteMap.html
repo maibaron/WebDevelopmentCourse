@@ -1,0 +1,175 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>מפת אתר- פשוט ליצור</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/myJs.js"></script>
+    <!-- אייקון -->
+    <link rel="icon" href="Images/favicon.png">
+</head>
+<body>
+    <div id="container">
+        <!-- נגישות דילוג לתוכן מרכזי -->
+        <a id="skip" href="#map">דלג לתוכן העמוד</a>
+                <header>
+                        <a href="HomePage.html">
+                                <img id="logo" onmouseover="showlogo2()" onmouseout="showlogo1()" src="Images/logo1.png" alt="לוגו- מעבר לעמוד הבית" />
+                
+                            </a>
+                        <nav  aria-label="תפריט ראשי" >
+                                <ul>
+                                    <li><a href="paperLobby.html">יצירה מנייר</a></li>
+                                    <li><a href="toiletPaper.html">יצירה מגלילי נייר</a></li>
+                                    <li><a class="notActive" href="#">יצירה מבקבוקים</a></li>
+                                    <li><a class="notActive" href="#">יצירה לפי גיל</a></li>
+                                    <li><a href="Tips.html">טיפים לבייביסיטר</a></li>
+                                </ul>
+                            </nav>
+                    </header>
+            <!-- מחוון מקומי -->
+            <nav>
+                <ol class="breadcrumbs">
+                    <li><a href="HomePage.html">עמוד הבית</a></li>
+                    <li>מפת אתר</li>
+                </ol>
+            </nav>
+            <article id="map" class="contentpage">
+                <h1>מפת אתר</h1>
+                <div id="mapImage"></div>
+                <div class="browntexture"></div>
+            <nav>
+                <ul class="footer-grid">
+                    <li>
+                        <a href="paperLobby.html">יצירה מנייר</a>
+                        <ul>
+                            <li><a href="">סימנייה</a></li>
+                            <li><a class="notActiveGray" href="">צפרדע מקפצת</a></li>
+                            <li><a class="notActiveGray" href="">חולצה</a></li>
+                            <li><a class="notActiveGray" href="">פרח פורח</a></li>
+                            <li><a class="notActiveGray" href="">קופסה</a></li>
+                            <li><a class="notActiveGray" href="">סירה</a></li>
+                            <li><a class="notActiveGray" href="">כלב</a></li>
+                            <li><a class="notActiveGray" href="">ברכה מיוחדת</a></li>
+                            <li><a class="notActiveGray" href="">שמלה חגיגית</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="toiletPaper.html">יצירה מגלילי נייר</a>
+                        <ul>
+                            <li><a href="">תמנון טואלט</a></li>
+                            <li><a class="notActiveGray" href="">מניוני ושימושי!</a></li>
+                            <li><a class="notActiveGray" href="">פרפר</a></li>
+                            <li><a class="notActiveGray" href="">מעמד לנייד</a></li>
+                            <li><a class="notActiveGray" href="">ארנב</a></li>
+                            <li><a class="notActiveGray" href="">מכונית מירוץ</a></li>
+                            <li><a class="notActiveGray" href="">משקפת</a></li>
+                            <li><a class="notActiveGray" href="">ינשוף לילי</a></li>
+                            <li><a class="notActiveGray" href="">בית</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="category notActiveGray" href="#">יצירה מבקבוקים</a>
+                        <ul >
+                            <li><a class="notActiveGray" href="#">עדנית-חתול</a></li>
+                            <li><a class="notActiveGray" href="#">!באולינג-בום</a></li>
+                            <li><a class="notActiveGray" href="#">קופת חיסכון</a></li>
+                            <li><a class="notActiveGray" href="#">קלמר</a></li>
+                            <li><a class="notActiveGray" href="#">פינגווין</a></li>
+                            <li><a class="notActiveGray" href="#">תפוח</a></li>
+                            <li><a class="notActiveGray"href="#">חללית</a></li>
+                            <li><a class="notActiveGray" href="#">מטוס</a></li>
+                            <li><a class="notActiveGray" href="#">סלסלה</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="category notActiveGray" href="#">יצירה לפי גיל</a>
+                        <ul>
+                            <li><a class="notActiveGray" href="#">3-5</a></li>
+                            <li><a class="notActiveGray" href="#">6-8</a></li>
+                            <li><a class="notActiveGray" href="#">9-11</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">טיפים לבייביסיטר</a></li>
+                    <li><a href="about.html">אודות</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                    <li><a href="websiteMap.html">מפת אתר</a></li>
+                </ul>
+            </nav>
+            <div class="scissors" id="mapScissors"></div>
+        </article>
+        <div class="browntexture"></div>
+        <footer >
+                <nav>
+                    <ul class="footer-grid">
+                        <li>
+                            <a class="category" href="paperLobby.html">יצירה מנייר</a>
+                            <ul>
+                                <li><a href="">סימנייה</a></li>
+                                <li><a class="notActiveGray" href="#">צפרדע מקפצת</a></li>
+                                <li><a class="notActiveGray" href="#">חולצה</a></li>
+                                <li><a class="notActiveGray" href="#">פרח פורח</a></li>
+                                <li><a class="notActiveGray" href="#">קופסה</a></li>
+                                <li><a class="notActiveGray" href="#">סירה</a></li>
+                                <li><a class="notActiveGray" href="#">כלב</a></li>
+                                <li><a class="notActiveGray" href="#">ברכה מיוחדת</a></li>
+                                <li><a class="notActiveGray" href="#">שמלה חגיגית</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="category" href="toiletPaper.html">יצירה מגלילי נייר</a>
+                            <ul>
+                                <li><a href="">תמנון טואלט</a></li>
+                                <li><a class="notActiveGray" href="#">מניוני ושימושי!</a></li>
+                                <li><a class="notActiveGray" href="#">פרפר</a></li>
+                                <li><a class="notActiveGray" href="#">מעמד לנייד</a></li>
+                                <li><a class="notActiveGray" href="#">ארנב</a></li>
+                                <li><a class="notActiveGray" href="#">מכונית מירוץ</a></li>
+                                <li><a class="notActiveGray" href="#">משקפת</a></li>
+                                <li><a class="notActiveGray" href="#">ינשוף לילי</a></li>
+                                <li><a class="notActiveGray" href="#">בית</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="category notActiveGray" href="#">יצירה מבקבוקים</a>
+                            <ul >
+                                <li><a class="notActiveGray" href="#">עדנית-חתול</a></li>
+                                <li><a class="notActiveGray" href="#">!באולינג-בום</a></li>
+                                <li><a class="notActiveGray" href="#">קופת חיסכון</a></li>
+                                <li><a class="notActiveGray" href="#">קלמר</a></li>
+                                <li><a class="notActiveGray" href="#">פינגווין</a></li>
+                                <li><a class="notActiveGray" href="#">תפוח</a></li>
+                                <li><a class="notActiveGray"href="#">חללית</a></li>
+                                <li><a class="notActiveGray" href="#">מטוס</a></li>
+                                <li><a class="notActiveGray" href="#">סלסלה</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="category notActiveGray" href="#">יצירה לפי גיל</a>
+                            <ul>
+                                <li><a class="notActiveGray" href="#">3-5</a></li>
+                                <li><a class="notActiveGray" href="#">6-8</a></li>
+                                <li><a class="notActiveGray" href="#">9-11</a></li>
+                            </ul>
+                        <li><a class="category" href="Tips.html">טיפים לבייביסיטר</a></li>
+                        <li><a class="category" href="about.html">אודות</a></li>
+                        <li><a class="category" href="contactUs.html">צור קשר</a></li>
+                        <li><a class="category" href="websiteMap.html">מפת אתר</a></li>
+                    </ul>
+                </nav>     
+              
+            </footer>
+    </div>
+</body>
+</html>

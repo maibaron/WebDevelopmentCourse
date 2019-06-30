@@ -1,0 +1,195 @@
+﻿<!doctype html>
+<html lang="he">
+
+<head>
+    <meta charset="utf-8" />
+    <title>סימנייה- פשוט ליצור</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    
+    <!-- אייקון -->
+    <link rel="icon" href="Images/favicon.png">
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+        type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="container">
+        <!-- נגישות דילוג לתוכן מרכזי -->
+        <a id="skip" href="#mainContent">דלג לתוכן העמוד</a>
+
+        <header>
+            <a href="HomePage.html">
+                <img id="logo" onmouseover="showlogo2()" onmouseout="showlogo1()" src="Images/logo1.png"
+                    alt="לוגו- מעבר לעמוד הבית" />
+
+            </a>
+            <nav aria-label="תפריט ראשי">
+                <ul>
+                    <li class="currentPage"><a href="paperLobby.html">יצירה מנייר</a></li>
+                    <li><a href="toiletPaper.html">יצירה מגלילי נייר</a></li>
+                    <li><a class="notActive" href="#">יצירה מבקבוקים</a></li>
+                    <li><a class="notActive" href="#">יצירה לפי גיל</a></li>
+                    <li><a href="Tips.html">טיפים לבייביסיטר</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--תפריט breadcrumbs-->
+        <nav>
+            <ol class="breadcrumbs">
+                <li><a href="#">עמוד הבית</a></li>
+                <li><a href="#">יצירה מגלילי נייר</a></li>
+                <li>סימנייה</li>
+            </ol>
+        </nav>
+        <!--תוכן העמוד-->
+        <article id="mainContent" class="contentpage">
+                <div class="headerbackgroundcolor"></div>
+            <h1>סימנייה</h1>
+            <div id="bookmark"></div>
+            <section class="didYouKnow">
+                <h2>הידעת?</h2>
+                <p>סימניות באורך 40 מטר היו כבר בתקופת מגילות הפפירוס במצרים בעת העתיקה
+                </p>
+                <ul>
+                    <li>
+                        <p>20 דק'</p>
+                    </li>
+                    <li>
+                        <p>יחיד\קבוצה</p>
+                    </li>
+                    <li>
+                        <p>גילאי 3-5</p>
+                    </li>
+                </ul>
+            </section>
+            <div class="browntextureThick"></div>
+            <div class="paperclip"></div>
+            <section class="tdl">
+                <div class="notebook">
+                    <h2>אז מה צריך?</h2>
+                    <ul>
+                        <li>דף לבן</li>
+                        <li>סרגל</li>
+                        <li>דבק</li>
+                        <li>מספריים</li>
+                        <li>טושים- צהוב ותכלת</li>
+                        <li>עטים- שחור ואדום</li>
+                        <li>עיפרון</li>
+                    </ul>
+                </div>
+                <iframe title="סרטון הדרכה להכנת הסימנייה" width="747" height="420"
+                    src="https://www.youtube.com/embed/HAx4jZnXaxg" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <section>
+                    <h2>הילה, בת 15, וותק של חצי שנה</h2>
+                    <p>"אני הכנתי סימנייה כזאת עם רוני, היא כל כך נהנתה!
+                        איזה כיף שעכשיו אפשר לקרוא ספר, ולהשתמש בסימנייה שאנחנו יצרנו 😊"
+                    </p>
+                </section>
+                <div class="scissors" id="creationsScissors"></div>
+                <p>אין לכם זמן לראות את הסרטון? לחצו על כפתור "להורדה" ותצפו בהנחיות במסמך במיוחד בשבילכם</p>
+                <a aria-label="להורדה" href="#" target="_blank" download>להורדה</a>
+            </section>
+
+            <div class="browntexture"></div>
+            <div class="paperclip" id="asidepaperclip"></div>
+            <div class="pencil" id="asidePencil"></div>
+            <aside>
+                <h2>לפעילויות נוספות ב-20 דקות:</h2>
+                <ul>
+                    <li>
+                        <a class="notActive" href="#"><img src="Images/paperdress.jpg" alt="לא פעיל">
+                            <p>שמלה חגיגית</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="notActive" href="#"><img src="Images/binoculars.jpg" alt="לא פעיל">
+                            <p>משקפת</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="notActive" href="#"><img src="Images/paperboat.jpg" alt="לא פעיל">
+                            <p>סירה</p>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </article>
+        <div class="browntexture"></div>
+        <footer >
+                <nav>
+                    <ul class="footer-grid">
+                        <li>
+                            <a class="category" href="paperLobby.html">יצירה מנייר</a>
+                            <ul>
+                                <li><a href="">סימנייה</a></li>
+                                <li><a class="notActiveGray" href="#">צפרדע מקפצת</a></li>
+                                <li><a class="notActiveGray" href="#">חולצה</a></li>
+                                <li><a class="notActiveGray" href="#">פרח פורח</a></li>
+                                <li><a class="notActiveGray" href="#">קופסה</a></li>
+                                <li><a class="notActiveGray" href="#">סירה</a></li>
+                                <li><a class="notActiveGray" href="#">כלב</a></li>
+                                <li><a class="notActiveGray" href="#">ברכה מיוחדת</a></li>
+                                <li><a class="notActiveGray" href="#">שמלה חגיגית</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="category" href="toiletPaper.html">יצירה מגלילי נייר</a>
+                            <ul>
+                                <li><a href="">תמנון טואלט</a></li>
+                                <li><a class="notActiveGray" href="#">מניוני ושימושי!</a></li>
+                                <li><a class="notActiveGray" href="#">פרפר</a></li>
+                                <li><a class="notActiveGray" href="#">מעמד לנייד</a></li>
+                                <li><a class="notActiveGray" href="#">ארנב</a></li>
+                                <li><a class="notActiveGray" href="#">מכונית מירוץ</a></li>
+                                <li><a class="notActiveGray" href="#">משקפת</a></li>
+                                <li><a class="notActiveGray" href="#">ינשוף לילי</a></li>
+                                <li><a class="notActiveGray" href="#">בית</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="category notActiveGray" href="#">יצירה מבקבוקים</a>
+                            <ul >
+                                <li><a class="notActiveGray" href="#">עדנית-חתול</a></li>
+                                <li><a class="notActiveGray" href="#">!באולינג-בום</a></li>
+                                <li><a class="notActiveGray" href="#">קופת חיסכון</a></li>
+                                <li><a class="notActiveGray" href="#">קלמר</a></li>
+                                <li><a class="notActiveGray" href="#">פינגווין</a></li>
+                                <li><a class="notActiveGray" href="#">תפוח</a></li>
+                                <li><a class="notActiveGray"href="#">חללית</a></li>
+                                <li><a class="notActiveGray" href="#">מטוס</a></li>
+                                <li><a class="notActiveGray" href="#">סלסלה</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="category notActiveGray" href="#">יצירה לפי גיל</a>
+                            <ul>
+                                <li><a class="notActiveGray" href="#">3-5</a></li>
+                                <li><a class="notActiveGray" href="#">6-8</a></li>
+                                <li><a class="notActiveGray" href="#">9-11</a></li>
+                            </ul>
+                        <li><a class="category" href="Tips.html">טיפים לבייביסיטר</a></li>
+                        <li><a class="category" href="about.html">אודות</a></li>
+                        <li><a class="category" href="contactUs.html">צור קשר</a></li>
+                        <li><a class="category" href="websiteMap.html">מפת אתר</a></li>
+                    </ul>
+                </nav>     
+              
+            </footer>
+    </div>
+</body>
+
+</html>
